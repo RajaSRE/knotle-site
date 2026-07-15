@@ -7,4 +7,4 @@ Public pages for **Knotle**, a calm daily loop puzzle for iPhone.
 
 Served via GitHub Pages. Knotle collects no personal data.
 
-Support: knotleapp@gmail.com · © 2026 Maran Studios
+Support: knotleapp@gmail.com · © 2026 Knotle
