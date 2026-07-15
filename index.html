@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Knotle — A calm daily loop puzzle</title>
+<meta name="description" content="Knotle is a calm daily loop puzzle. One puzzle a day, everyone gets the same board. No ads, no tracking, fully offline.">
+<style>
+  :root{
+    --bg:#F6F2EA; --card:#FFFFFF; --text:#1A1D22; --muted:#5F5F65; --line:#E7E0D3;
+    --a1:#5A6BE0; --a2:#1FA9A2;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0E1116; --card:#181C23; --text:#F2F4F8; --muted:#9DA4AF; --line:#262D37;
+           --a1:#7C8BFF; --a2:#3FD0C9; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+       -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:640px;margin:0 auto;padding:56px 22px 72px;}
+  .mark{font-size:44px;font-weight:800;letter-spacing:-.5px;margin:0 0 6px;}
+  .mark .o{background:linear-gradient(135deg,var(--a1),var(--a2));
+           -webkit-background-clip:text;background-clip:text;color:transparent;}
+  .tag{color:var(--muted);margin:0 0 40px;font-size:17px;}
+  h2{font-size:18px;margin:36px 0 10px;}
+  p{margin:0 0 14px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;}
+  a{color:var(--a1);text-decoration:none;font-weight:600;}
+  a:hover{text-decoration:underline;}
+  ul{margin:0 0 14px;padding-left:20px;} li{margin:6px 0;}
+  footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+         color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 class="mark">Kn<span class="o">o</span>tle</h1>
+  <p class="tag">A calm daily loop puzzle.</p>
+
+  <p>Every day, everyone gets the same board. Rotate the glowing tiles until every path
+     joins into a single closed loop — and when it clicks shut, the whole loop lights up.
+     Easy to learn in seconds, quietly satisfying to master.</p>
+
+  <ul>
+    <li>One puzzle a day — a small ritual, not a time sink.</li>
+    <li>Chase the best possible solve to earn a Perfect.</li>
+    <li>Keep a streak, and share your result spoiler-free.</li>
+    <li>Unlimited Practice whenever you want more.</li>
+    <li>No ads. No tracking. Works offline — your data never leaves your device.</li>
+  </ul>
+
+  <h2>Support</h2>
+  <div class="card">
+    <p style="margin:0">Questions, bugs, or feedback? Email
+       <a href="mailto:knotleapp@gmail.com">knotleapp@gmail.com</a>.</p>
+    <p style="margin:10px 0 0;color:var(--muted);font-size:14px">
+       We read everything and usually reply within a couple of days.</p>
+  </div>
+
+  <h2>Privacy</h2>
+  <p>Knotle collects nothing at all — no account, no analytics, no tracking.
+     Read the <a href="privacy.html">full privacy policy</a>.</p>
+
+  <footer>
+    <span>© 2026 Maran Studios</span>
+    <span><a href="privacy.html">Privacy Policy</a></span>
+  </footer>
+</div>
+</body>
+</html>
